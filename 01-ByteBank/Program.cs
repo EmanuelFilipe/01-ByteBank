@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _01_ByteBank.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,13 @@ namespace _01_ByteBank
     {
         static void Main(string[] args)
         {
+            ContaCorrente contaGabriela = new ContaCorrente
+            {
+                Titular = "Gabriela",
+                Agencia = 863,
+                Numero = 8635654,
+                Saldo = 100
+            };
         }
     }
 }
