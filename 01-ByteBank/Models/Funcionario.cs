@@ -1,6 +1,6 @@
-﻿namespace _01_ByteBank.Models
+﻿namespace ByteBank.Models
 {
-    class ContaCorrente
+    class Funcionario
     {
         public string Titular { get; set; }
         public int Agencia { get; set; }

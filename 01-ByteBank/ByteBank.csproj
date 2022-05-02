@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{17CB89FE-CB79-4258-9355-D92160AB263F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_ByteBank</RootNamespace>
-    <AssemblyName>01-ByteBank</AssemblyName>
+    <RootNamespace>ByteBank</RootNamespace>
+    <AssemblyName>ByteBank</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\ContaCorrente.cs" />
+    <Compile Include="Models\Funcionario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
