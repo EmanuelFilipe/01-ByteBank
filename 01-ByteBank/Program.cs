@@ -12,8 +12,12 @@ namespace ByteBank
         static void Main(string[] args)
         {
             
-            Console.WriteLine("teste");
             Console.ReadKey();
         }
+
+        //public static void CalcularBonificacao()
+        //{
+        //    GerenciadorBonificacao gerenciadorBonificacao = new GerenciadorBonificacao();
+        //}
     }
 }

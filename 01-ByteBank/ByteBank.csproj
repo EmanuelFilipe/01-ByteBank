@@ -43,7 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Diretor.cs" />
     <Compile Include="Models\Funcionario.cs" />
+    <Compile Include="Models\GerenciadorBonificacao.cs" />
+    <Compile Include="Models\Designer.cs" />
+    <Compile Include="Models\Auxiliar.cs" />
+    <Compile Include="Models\GerenteConta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
